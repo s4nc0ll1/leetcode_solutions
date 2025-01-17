@@ -16,9 +16,3 @@ class Solution:
             return True
             
         return False
-            
-
-
-solution =  Solution()
-s = "([})"
-print(solution.isValid(s))

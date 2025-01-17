@@ -1,5 +1,3 @@
-# Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
 class Solution:
     def longestCommonPrefix(self, strs:list[str])->str:
         #Vertical search approach
@@ -17,11 +15,3 @@ class Solution:
                     return string[:i]
         
         return strs[0][:max_length]
-        
-
-        
-        
-solution= Solution()
-strs = ["flower","flow","flight"]
-
-solution.longestCommonPrefix(strs)
